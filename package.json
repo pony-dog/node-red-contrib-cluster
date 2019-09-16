@@ -1,0 +1,32 @@
+{
+  "name": "node-red-contrib-cluster",
+  "version": "1.0.0",
+  "description": "Node-RED nodes to implement master worker cluster",
+  "main": "cluster.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "node-red": {
+    "nodes": {
+      "cluster": "cluster.js",
+      "master" : "master.js",
+      "worker" : "worker.js"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pony-dog/node-red-contrib-cluster.git"
+  },
+  "keywords": [
+    "node-red",
+    "cluster",
+    "master",
+    "worker"
+  ],
+  "author": "Maruthi Krishnappa",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/pony-dog/node-red-contrib-cluster/issues"
+  },
+  "homepage": "https://github.com/pony-dog/node-red-contrib-cluster#readme"
+}
