@@ -10,7 +10,9 @@
     "nodes": {
       "cluster": "cluster.js",
       "master" : "master.js",
-      "worker" : "worker.js"
+      "worker" : "worker.js",
+      "web"    : "web.js",
+      "route"  : "route.js"
     }
   },
   "repository": {
