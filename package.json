@@ -1,6 +1,6 @@
 {
   "name": "node-red-contrib-cluster",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Node-RED nodes to implement master worker cluster",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
